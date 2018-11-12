@@ -1,6 +1,7 @@
 language: go
 dist: trusty
 sudo: required
-
+install:
+- go build main.go
 script:
 - bash ./scripts/test.sh
