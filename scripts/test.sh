@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-go build ./hello.go
 out=$(./hello)
 
 # we should check out == hello
